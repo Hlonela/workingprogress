@@ -1,0 +1,124 @@
+.contact-section .contact-content {
+  text-align: center;
+}
+
+.contact-section .contact-content h1 {
+  font-size: 40px;
+}
+
+.contact-section .contact-content h1:before {
+  content: " ";
+  display: block;
+  width: 120px;
+  height: 2px;
+  background: #000;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  z-index: -2;
+}
+
+.contact-section .contact-content h1:after {
+  content: " ";
+  display: block;
+  width: 120px;
+  height: 2px;
+  background: #000;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  z-index: -2;
+}
+span {
+  background: #fff;
+}
+
+.contact-section .contact-content p {
+  font-size: 20px;
+}
+
+form {
+  background-color: white;
+  border-radius: 50px;
+  box-shadow: 39px 39px 77px, -39px -39px 77px;
+  padding: 5% 10%;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+}
+
+.three {
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  grid-column: 1;
+  grid-row: 3;
+}
+h2 {
+  justify-content: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: black;
+  font-family: "Rubik Mono One", sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+}
+input {
+  width: 100px 50px;
+  margin: 10%;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  padding: 5% 10%;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+label {
+  display: none;
+}
+.contact-info {
+  width: 100%;
+  margin: 10%;
+  font: sans-serif;
+}
+.MessageArea {
+  width: 300px;
+}
+
+#MessageArea {
+  outline: none;
+  border: 1px solid;
+}
+
+input,
+#MessageArea {
+  outline: none;
+  border: 1px solid;
+  border-radius: 50px;
+  background: lightsalmon;
+  box-shadow: inset 39px 39px 77px white, inset -39px -39px 77px white;
+  border: none;
+  outline: none;
+  padding: 5%;
+  /* padding: 5% 10%; */
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.send-button {
+  background-color: goldenrod;
+  border-radius: 10px;
+  border: 2px solid goldenrod;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  padding: 10px 50px;
+  margin: 10px;
+  font-weight: bolder;
+  text-align: left;
+  border: none;
+}

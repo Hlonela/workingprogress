@@ -1,0 +1,190 @@
+body {
+  background-color: white;
+}
+
+#landing {
+  width: 20vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(206, 200, 200, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(11px);
+  -webkit-backdrop-filter: blur(11px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+#content {
+  width: 50vw;
+  margin-left: 50vw;
+  background-color: white;
+  height: 100vh;
+  display: flex;
+}
+
+.actual-content p {
+  display: grid;
+  color: white;
+  font-size: 20px;
+  text-indent: 50px;
+  letter-spacing: 3px;
+  line-height: 1.8;
+}
+
+.actual-content h1 {
+  display: flex;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 300;
+  justify-content: center;
+}
+#about-list li a {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: goldenrod;
+  font-size: 20px;
+}
+.content-2 .actual-content {
+  width: 50%;
+}
+.content-3 .Actual-Content2 {
+  width: 50%;
+  justify-items: flex-end;
+}
+.Actual-Content2 p {
+  justify-items: flex-start;
+}
+
+.fas {
+  font-weight: 950;
+  color: goldenrod;
+  padding: 10px;
+  justify-content: center;
+}
+.fas2 {
+  display: flex;
+  font-weight: 950;
+  color: goldenrod;
+  padding: 10px;
+  justify-content: end;
+  display: inline-flex;
+  font-style: normal;
+  font-variant: normal;
+  font-variant-caps: normal;
+  font-variant-alternates: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-variant-position: normal;
+  text-rendering: auto;
+  line-height: 1;
+  font-family: "Font Awesome 5 Free";
+  position: absolute;
+  left: 89px;
+  bottom: 0px;
+}
+.contact-btn {
+  background-color: transparent;
+  border-radius: 50px;
+  border: 5px solid black;
+  justify-content: center;
+  color: goldenrod;
+  text-decoration: none;
+  padding: 10px 50px;
+  margin: 10px;
+  font-weight: bolder;
+  position: relative;
+  left: 1200px;
+  bottom: 290px;
+}
+.cv-button {
+  background-color: transparent;
+  border-radius: 50px;
+  border: 5px solid black;
+  justify-content: center;
+  color: goldenrod;
+  text-decoration: none;
+  padding: 10px 50px;
+  margin: 10px;
+  font-weight: bolder;
+  position: relative;
+  left: 1210px;
+  bottom: 290px;
+}
+#Education {
+  background-color: goldenrod;
+}
+
+#contact-form {
+  border-radius: 50px;
+  background: #008080;
+  box-shadow: 39px 39px 77px #006d6d, -39px -39px 77px #009393;
+  padding: 5% 10%;
+  color: black;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact-heading {
+  text-transform: uppercase;
+  margin-bottom: 10 px;
+}
+.contact-info {
+  width: 100%;
+  margin: 10%;
+  font: sans-serif;
+}
+#name {
+  font: sans-serif;
+  width: 100%;
+}
+#surname {
+  font: sans-serif;
+  width: 100%;
+}
+#Email {
+  font: sans-serif;
+  width: 100%;
+}
+#Tel {
+  font: sans-serif;
+  width: 100%;
+}
+
+#button-submit {
+  border-radius: 50px;
+  background: #008080;
+  box-shadow: inset 39px 39px 77px #006d6d, inset -39px -39px 77px #009393;
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 100%;
+}
+.MessageArea {
+  width: 300px;
+}
+#MessageArea {
+  outline: none;
+  border: 1px solid;
+}
+
+input,
+#MessageArea {
+  width: 100%;
+  border-radius: 50px;
+  background: #008080;
+  box-shadow: inset 39px 39px 77px #006d6d, inset -39px -39px 77px #009393;
+  border: none;
+  outline: none;
+  padding: 5% 10%;
+}
+.labels {
+  display: none;
+}

@@ -1,0 +1,47 @@
+.pro {
+  width: 240px;
+  padding: 10px;
+  margin-right: auto;
+  border-radius: 5px;
+  border: 1px solid goldenrod;
+}
+
+.pro a {
+  display: block;
+}
+
+.project-section {
+  padding: 5%;
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+
+.project-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.project-section .project-content .pro i {
+  font-size: 100px;
+  color: goldenrod;
+}
+
+.project-section .project-content .pro p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+}
+
+.button {
+  background-color: transparent;
+  border-radius: 5px;
+  border: 2px solid goldenrod;
+  justify-content: center;
+  color: goldenrod;
+  text-decoration: none;
+  padding: 10px 50px;
+  margin: 10px;
+  font-weight: bolder;
+  text-align: left;
+}

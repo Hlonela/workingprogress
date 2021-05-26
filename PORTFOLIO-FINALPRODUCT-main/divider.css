@@ -1,0 +1,29 @@
+div {
+  border: 1px dashed grey;
+}
+
+.pageline {
+  border-bottom: 4px solid #ccc;
+  display: block;
+}
+.Lines {
+  width: 100px;
+  height: 45px;
+  position: relative;
+}
+.Lines::after,
+.Lines::before {
+  content: "";
+  position: absolute;
+  margin: auto;
+  height: 2px;
+  width: 45px;
+  background: black;
+  top: 45%;
+}
+.Lines::after {
+  left: 0;
+}
+.Lines::before {
+  right: 0;
+}

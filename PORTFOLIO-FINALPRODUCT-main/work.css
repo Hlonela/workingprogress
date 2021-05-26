@@ -1,0 +1,136 @@
+.work-section {
+  padding: 150px;
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+
+.work-section .work-content {
+  text-align: left;
+}
+.work-section h1 {
+  font-size: 40px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.work-section .timeline-container .fas {
+  font-size: 30px;
+  color: red;
+  justify-items: center;
+}
+
+/* .work-section .work-content h1:before {
+  content: " ";
+  display: block;
+  width: 120px;
+  height: 2px;
+  background: #000;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  z-index: -2;
+}
+
+.work-section .work-content h1:after {
+  content: " ";
+  display: block;
+  width: 120px;
+  height: 2px;
+  background: #000;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  z-index: -2;
+  margin-bottom: 10px;
+} */
+
+h1 {
+  text-transform: uppercase;
+  color: black;
+  text-align: left;
+}
+.job {
+  font-weight: 100;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+.timeline-container {
+  display: grid;
+  grid-template-columns: 1fr 10% 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  background: url(./Images/sun.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  align-items: center;
+  justify-items: center;
+  padding: 10%;
+  font-size: 20px;
+}
+
+.line {
+  width: 10px;
+  height: 100%;
+  grid-column-start: 2;
+  grid-row-start: 1;
+  grid-row-end: 6;
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+}
+
+.item-1 {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.item-2 {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.item-3 {
+  grid-column: 3;
+  grid-row: 3;
+}
+
+.item-4 {
+  grid-column: 1;
+  grid-row: 4;
+}
+.item-5 {
+  grid-column: 3;
+  grid-row: 5;
+}
+.timeline-item {
+  color: goldenrod;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  padding: 10%;
+  margin: 10%;
+  margin-bottom: 20px;
+  background: white;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+}
+
+.timeline-item p {
+  color: navy;
+  margin-top: 20px;
+}
+
+.timeline-item h3 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.timeline-item h1 {
+  margin-bottom: 90px;
+}
+
+.timeline-item i {
+  margin-top: 10px;
+}

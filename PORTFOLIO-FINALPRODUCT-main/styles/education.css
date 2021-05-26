@@ -1,0 +1,44 @@
+.education-section {
+  height: 70vh;
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+
+.education-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.education-content .education-item {
+  display: flex;
+  padding: 10px;
+  border-radius: 10px;
+  justify-content: flex-start;
+  border: 2px solid goldenrod;
+  width: 90%;
+  max-width: 400px;
+}
+
+.education-item .education-details {
+  height: 100%;
+  border-left: 8px solid goldenrod;
+}
+.left-content h1 {
+  font-size: 40px;
+  font-weight: 100;
+  margin-bottom: 30px;
+}
+
+.education-section .education-content .education-item .education-details li {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: 30px;
+}
+.education-item i {
+  margin-right: 10px;
+  font-size: 25px;
+}
+.education-item li {
+  margin-left: 10px;
+}
